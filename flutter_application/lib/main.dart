@@ -398,8 +398,7 @@ class _MapState extends State<MapWidget> {
                                         return AlertDialog(
                                           title: Text(
                                               'Great! You\'ve signed a geocache placed by ' +
-                                                  feature.properties
-                                                      .name), // this is the added message
+                                                  feature.properties.name), 
                                           content: Image.network(
                                               feature.properties.image),
                                         );
